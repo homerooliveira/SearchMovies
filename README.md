@@ -5,11 +5,11 @@ Sample app to show search request using async-await and [swift-async-algorithms]
 
 # Motivation
 
-To improve the performance of the search request, I used the `throttle` function of `swift-async-algorithm` which ensures that the minimum interval has elapsed between requests so that the app doesn't make a request for every user input update. For more info see the [SearchViewModel.swift](Shared/ViewModel/SearchViewModel.swift)
+To improve the performance of the search request, I used the `throttle` function of `swift-async-algorithm` which ensures that the minimum interval has elapsed between text update so that the app doesn't make a request for every text update. For more info see the [SearchViewModel.swift](Shared/ViewModel/SearchViewModel.swift)
 
 # Quick setup
 
-Change the string `"API_KEY"` in `SearchViewModel.swift` to your API key of [TheMovieDb](https://developers.themoviedb.org/3/getting-started/introduction).
+Change the string `"API_KEY"` in [SearchViewModel.swift](Shared/ViewModel/SearchViewModel.swift) to your API key of [TheMovieDB](https://developers.themoviedb.org/3/getting-started/introduction).
 
 ```swift 
 ...
